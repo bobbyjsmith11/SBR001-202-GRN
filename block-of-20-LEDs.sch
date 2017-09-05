@@ -1,0 +1,2011 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SBR001-202-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLedger 17000 11000
+encoding utf-8
+Sheet 2 2
+Title "SBR001-201"
+Date ""
+Rev "GRN"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L VDD #PWR05
+U 1 1 59AB5B26
+P 1150 3250
+F 0 "#PWR05" H 1150 3100 50  0001 C CNN
+F 1 "VDD" H 1150 3400 50  0000 C CNN
+F 2 "" H 1150 3250 50  0000 C CNN
+F 3 "" H 1150 3250 50  0000 C CNN
+	1    1150 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 650  1200 0    60   ~ 0
+LT Q39G-Q1S2-25-1
+Text Notes 650  750  0    60   ~ 12
+LED PN
+Text Notes 1900 750  0    60   ~ 12
+MFR
+Text Notes 2650 750  0    60   ~ 12
+COLOR
+Text Notes 4300 750  0    60   ~ 12
+LEDS/STACK
+Text Notes 5000 750  0    60   ~ 12
+RES
+Text Notes 3300 750  0    60   ~ 12
+VFWD
+Text Notes 2650 1200 0    60   ~ 0
+GRN
+Text Notes 4300 1100 0    60   ~ 0
+4
+Text Notes 650  1100 0    60   ~ 0
+LB Q39G-L2OO-35-1
+Text Notes 2650 1100 0    60   ~ 0
+BLU
+Text Notes 3300 1100 0    60   ~ 0
+3.0
+Text Notes 4300 1200 0    60   ~ 0
+4
+Text Notes 650  900  0    60   ~ 0
+LS Q976-NR-1
+Text Notes 1900 900  0    60   ~ 0
+OSRAM
+Text Notes 2650 900  0    60   ~ 0
+RED
+Text Notes 3300 900  0    60   ~ 0
+2.0
+Text Notes 4300 900  0    60   ~ 0
+5
+Text Notes 5000 900  0    60   ~ 0
+549
+Text Notes 650  1000 0    60   ~ 0
+LY L296-Q2R2-26-Z
+Text Notes 1900 1100 0    60   ~ 0
+OSRAM
+Text Notes 2650 1000 0    60   ~ 0
+YEL
+Text Notes 4300 1000 0    60   ~ 0
+5
+Text HLabel 12750 6800 2    60   UnSpc ~ 0
+BLOCK_OUT
+Text HLabel 1200 3650 0    60   UnSpc ~ 0
+BLOCK_IN
+Text Notes 1900 1200 0    60   ~ 0
+OSRAM
+Text Notes 3300 1200 0    60   ~ 0
+3.0
+Text Notes 1900 1000 0    60   ~ 0
+OSRAM
+Text Notes 3300 1000 0    60   ~ 0
+2.0
+Text Notes 3750 750  0    60   ~ 12
+IFWD
+Text Notes 3750 900  0    60   ~ 0
+9 mA
+Text Notes 3750 1000 0    60   ~ 0
+9 mA
+Text Notes 3750 1100 0    60   ~ 0
+8 mA
+Text Notes 3750 1200 0    60   ~ 0
+8 mA
+Text Notes 5000 1000 0    60   ~ 0
+549
+Text Notes 5000 1100 0    60   ~ 0
+442
+Text Notes 5000 1200 0    60   ~ 0
+442
+Text Notes 6250 1600 0    60   ~ 12
+VARIANT
+Text Notes 5750 750  0    60   ~ 12
+FULL PN
+Text Notes 5750 900  0    60   ~ 0
+SBR001-202-R-xx
+Text Notes 5750 1000 0    60   ~ 0
+SBR001-202-Y-xx
+Text Notes 5750 1100 0    60   ~ 0
+SBR001-202-B-xx
+Text Notes 5750 1200 0    60   ~ 0
+SBR001-202-G-xx
+Text Notes 5500 1600 0    60   ~ 12
+ASSY PN
+Text Notes 6800 1600 0    60   ~ 12
+REVISION
+$Comp
+L R R201
+U 1 1 59AE2185
+P 1500 3450
+F 0 "R201" V 1580 3450 50  0000 C CNN
+F 1 "442" V 1500 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1430 3450 50  0001 C CNN
+F 3 "" H 1500 3450 50  0001 C CNN
+F 4 "Panasonic" H 1500 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 1500 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 1400 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 1500 3450 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 1500 3450 60  0001 C CNN "Notes"
+F 9 "RES 0603 442 1%" H 1500 3450 60  0001 C CNN "Comment"
+	1    1500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D201
+U 1 1 59AE481E
+P 1500 3850
+F 0 "D201" H 1500 3950 50  0000 C CNN
+F 1 "GRN" H 1500 3750 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 1500 3850 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 1500 3850 50  0001 C CNN
+F 4 "OSRAM" H 1500 3850 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 1500 3850 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 1500 3650 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 1500 3850 60  0001 C CNN "Description"
+F 8 "~" H 1500 3850 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 1500 3850 60  0001 C CNN "Comment"
+	1    1500 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R225
+U 1 1 59AE617C
+P 1500 4350
+F 0 "R225" V 1580 4350 50  0000 C CNN
+F 1 "0" V 1500 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1430 4350 50  0001 C CNN
+F 3 "" H 1500 4350 50  0001 C CNN
+F 4 "Panasonic" H 1500 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 1500 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 1400 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 1500 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 1300 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 1500 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 1500 4350 60  0001 C CNN "Comment"
+	1    1500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R202
+U 1 1 59AE6309
+P 2600 3450
+F 0 "R202" V 2680 3450 50  0000 C CNN
+F 1 "442" V 2600 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2530 3450 50  0001 C CNN
+F 3 "" H 2600 3450 50  0001 C CNN
+F 4 "Panasonic" H 2600 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 2600 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 2500 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 2600 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 2400 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 2600 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 2600 3450 60  0001 C CNN "Comment"
+	1    2600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 59AF0658
+P 1200 4550
+F 0 "#PWR06" H 1200 4300 50  0001 C CNN
+F 1 "GND" H 1200 4400 50  0000 C CNN
+F 2 "" H 1200 4550 50  0000 C CNN
+F 3 "" H 1200 4550 50  0000 C CNN
+	1    1200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 59AF2BED
+P 3000 7650
+F 0 "#PWR07" H 3000 7400 50  0001 C CNN
+F 1 "GND" H 3000 7500 50  0000 C CNN
+F 2 "" H 3000 7650 50  0000 C CNN
+F 3 "" H 3000 7650 50  0000 C CNN
+	1    3000 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR08
+U 1 1 59AF2DD8
+P 3000 6350
+F 0 "#PWR08" H 3000 6200 50  0001 C CNN
+F 1 "VDD" H 3000 6500 50  0000 C CNN
+F 2 "" H 3000 6350 50  0000 C CNN
+F 3 "" H 3000 6350 50  0000 C CNN
+	1    3000 6350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5700 1200 5700 1250
+Wire Notes Line
+	5700 1250 6350 1250
+Wire Notes Line
+	6350 1250 6350 1200
+Wire Notes Line
+	6450 1250 6450 1500
+Wire Notes Line
+	6550 1200 6550 1250
+Wire Notes Line
+	6550 1250 6650 1250
+Wire Notes Line
+	6650 1250 6650 1200
+Wire Notes Line
+	5900 1300 5700 1500
+Wire Notes Line
+	6600 1300 6900 1500
+Wire Wire Line
+	1500 3600 1500 3700
+Wire Wire Line
+	1500 4000 1500 4200
+Wire Wire Line
+	2100 4050 2100 4100
+Wire Wire Line
+	2100 4100 1500 4100
+Connection ~ 1500 4100
+Wire Wire Line
+	2600 3600 2600 3750
+Wire Wire Line
+	2600 4050 2600 4200
+Wire Wire Line
+	3700 3600 3700 3750
+Wire Wire Line
+	3700 4050 3700 4200
+Wire Wire Line
+	4850 3600 4850 3750
+Wire Wire Line
+	4850 4050 4850 4200
+Wire Wire Line
+	6050 3600 6050 3750
+Wire Wire Line
+	6050 4050 6050 4200
+Wire Wire Line
+	2100 3750 2100 3700
+Wire Wire Line
+	2100 3700 2600 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	2600 4100 3200 4100
+Wire Wire Line
+	3200 4100 3200 4050
+Connection ~ 2600 4100
+Wire Wire Line
+	3700 3700 3200 3700
+Wire Wire Line
+	3200 3700 3200 3750
+Connection ~ 3700 3700
+Wire Wire Line
+	4300 4050 4300 4100
+Wire Wire Line
+	4300 4100 3700 4100
+Connection ~ 3700 4100
+Wire Wire Line
+	4850 3700 4300 3700
+Wire Wire Line
+	4300 3700 4300 3750
+Connection ~ 4850 3700
+Wire Wire Line
+	4850 4100 5500 4100
+Wire Wire Line
+	5500 4100 5500 4050
+Connection ~ 4850 4100
+Wire Wire Line
+	6050 3700 5500 3700
+Wire Wire Line
+	5500 3700 5500 3750
+Connection ~ 6050 3700
+Wire Wire Line
+	4850 3250 4850 3300
+Connection ~ 4850 3250
+Wire Wire Line
+	3700 3250 3700 3300
+Connection ~ 3700 3250
+Wire Wire Line
+	2600 3250 2600 3300
+Connection ~ 2600 3250
+Wire Wire Line
+	6050 4550 6050 4500
+Wire Wire Line
+	2600 4500 2600 4550
+Connection ~ 2600 4550
+Wire Wire Line
+	3700 4500 3700 4550
+Connection ~ 3700 4550
+Wire Wire Line
+	4850 4500 4850 4550
+Connection ~ 4850 4550
+Wire Wire Line
+	6050 4100 6700 4100
+Wire Wire Line
+	6700 4100 6700 4050
+Connection ~ 6050 4100
+Wire Wire Line
+	1200 3650 1500 3650
+Connection ~ 1500 3650
+Wire Wire Line
+	7250 3600 7250 3700
+Wire Wire Line
+	7250 4000 7250 4200
+Wire Wire Line
+	7850 4050 7850 4100
+Wire Wire Line
+	7850 4100 7250 4100
+Connection ~ 7250 4100
+Wire Wire Line
+	8350 3600 8350 3750
+Wire Wire Line
+	8350 4050 8350 4200
+Wire Wire Line
+	9450 3600 9450 3750
+Wire Wire Line
+	9450 4050 9450 4200
+Wire Wire Line
+	7850 3750 7850 3700
+Wire Wire Line
+	7850 3700 8350 3700
+Connection ~ 8350 3700
+Wire Wire Line
+	8350 4100 8950 4100
+Wire Wire Line
+	8950 4100 8950 4050
+Connection ~ 8350 4100
+Wire Wire Line
+	9450 3700 8950 3700
+Wire Wire Line
+	8950 3700 8950 3750
+Connection ~ 9450 3700
+Connection ~ 9450 4100
+Connection ~ 7250 3250
+Wire Wire Line
+	9450 3250 9450 3300
+Connection ~ 9450 3250
+Wire Wire Line
+	8350 3250 8350 3300
+Connection ~ 8350 3250
+Connection ~ 7250 4550
+Wire Wire Line
+	8350 4500 8350 4550
+Connection ~ 8350 4550
+Wire Wire Line
+	9450 4500 9450 4550
+Connection ~ 9450 4550
+Wire Wire Line
+	6700 3650 7250 3650
+Connection ~ 7250 3650
+Wire Wire Line
+	6700 3750 6700 3650
+Wire Wire Line
+	7250 3300 7250 3250
+Wire Wire Line
+	7250 4550 7250 4500
+Connection ~ 6050 4550
+Wire Wire Line
+	1500 4550 1500 4500
+Wire Wire Line
+	1500 3250 1500 3300
+Wire Wire Line
+	6050 3250 6050 3300
+Connection ~ 6050 3250
+Wire Wire Line
+	10650 3600 10650 3750
+Wire Wire Line
+	10650 4050 10650 4200
+Wire Wire Line
+	9450 4100 10100 4100
+Wire Wire Line
+	10100 4100 10100 4050
+Wire Wire Line
+	10650 3700 10100 3700
+Wire Wire Line
+	10100 3700 10100 3750
+Connection ~ 10650 3700
+Wire Wire Line
+	10650 4550 10650 4500
+Wire Wire Line
+	10650 4100 11300 4100
+Wire Wire Line
+	11300 4100 11300 4050
+Connection ~ 10650 4100
+Wire Wire Line
+	11850 3600 11850 3700
+Wire Wire Line
+	11850 4000 11850 4200
+Wire Wire Line
+	12450 4050 12450 4100
+Wire Wire Line
+	12450 4100 11850 4100
+Connection ~ 11850 4100
+Wire Wire Line
+	12950 3600 12950 3750
+Wire Wire Line
+	12950 4050 12950 4200
+Wire Wire Line
+	14050 3600 14050 3750
+Wire Wire Line
+	14050 4050 14050 4200
+Wire Wire Line
+	12450 3750 12450 3700
+Wire Wire Line
+	12450 3700 12950 3700
+Connection ~ 12950 3700
+Wire Wire Line
+	12950 4100 13550 4100
+Wire Wire Line
+	13550 4100 13550 4050
+Connection ~ 12950 4100
+Wire Wire Line
+	14050 3700 13550 3700
+Wire Wire Line
+	13550 3700 13550 3750
+Connection ~ 14050 3700
+Connection ~ 14050 4100
+Connection ~ 11850 3250
+Wire Wire Line
+	14050 3250 14050 3300
+Connection ~ 14050 3250
+Wire Wire Line
+	12950 3250 12950 3300
+Connection ~ 12950 3250
+Connection ~ 11850 4550
+Wire Wire Line
+	12950 4500 12950 4550
+Connection ~ 12950 4550
+Wire Wire Line
+	14050 4550 14050 4500
+Wire Wire Line
+	11300 3650 11850 3650
+Connection ~ 11850 3650
+Wire Wire Line
+	11300 3750 11300 3650
+Wire Wire Line
+	11850 3300 11850 3250
+Wire Wire Line
+	11850 4550 11850 4500
+Connection ~ 10650 4550
+Wire Wire Line
+	10650 3250 10650 3300
+Connection ~ 10650 3250
+Wire Wire Line
+	3550 6700 3550 6850
+Wire Wire Line
+	3550 7150 3550 7300
+Wire Wire Line
+	2650 6800 3550 6800
+Connection ~ 3550 6800
+Wire Wire Line
+	3550 7650 3550 7600
+Wire Wire Line
+	3550 7200 4200 7200
+Wire Wire Line
+	4200 7200 4200 7150
+Connection ~ 3550 7200
+Wire Wire Line
+	4750 6700 4750 6800
+Wire Wire Line
+	4750 7100 4750 7300
+Wire Wire Line
+	5350 7150 5350 7200
+Wire Wire Line
+	5350 7200 4750 7200
+Connection ~ 4750 7200
+Wire Wire Line
+	5850 6700 5850 6850
+Wire Wire Line
+	5850 7150 5850 7300
+Wire Wire Line
+	6950 6700 6950 6850
+Wire Wire Line
+	6950 7150 6950 7300
+Wire Wire Line
+	5350 6850 5350 6800
+Wire Wire Line
+	5350 6800 5850 6800
+Connection ~ 5850 6800
+Wire Wire Line
+	5850 7200 6450 7200
+Wire Wire Line
+	6450 7200 6450 7150
+Connection ~ 5850 7200
+Wire Wire Line
+	6950 6800 6450 6800
+Wire Wire Line
+	6450 6800 6450 6850
+Connection ~ 6950 6800
+Connection ~ 6950 7200
+Connection ~ 4750 6350
+Wire Wire Line
+	6950 6350 6950 6400
+Connection ~ 6950 6350
+Wire Wire Line
+	5850 6350 5850 6400
+Connection ~ 5850 6350
+Connection ~ 4750 7650
+Wire Wire Line
+	5850 7650 5850 7600
+Connection ~ 5850 7650
+Wire Wire Line
+	6950 7650 6950 7600
+Connection ~ 6950 7650
+Wire Wire Line
+	4200 6750 4750 6750
+Connection ~ 4750 6750
+Wire Wire Line
+	4200 6850 4200 6750
+Wire Wire Line
+	4750 6350 4750 6400
+Wire Wire Line
+	4750 7650 4750 7600
+Connection ~ 3550 7650
+Wire Wire Line
+	3550 6350 3550 6400
+Connection ~ 3550 6350
+Wire Wire Line
+	8150 6700 8150 6850
+Wire Wire Line
+	8150 7150 8150 7300
+Wire Wire Line
+	6950 7200 7600 7200
+Wire Wire Line
+	7600 7200 7600 7150
+Wire Wire Line
+	8150 6800 7600 6800
+Wire Wire Line
+	7600 6800 7600 6850
+Connection ~ 8150 6800
+Wire Wire Line
+	8150 7650 8150 7600
+Wire Wire Line
+	8150 7200 8800 7200
+Wire Wire Line
+	8800 7200 8800 7150
+Connection ~ 8150 7200
+Wire Wire Line
+	9350 6700 9350 6800
+Wire Wire Line
+	9350 7100 9350 7300
+Wire Wire Line
+	9950 7150 9950 7200
+Wire Wire Line
+	9950 7200 9350 7200
+Connection ~ 9350 7200
+Wire Wire Line
+	10450 6700 10450 6850
+Wire Wire Line
+	10450 7150 10450 7300
+Wire Wire Line
+	11550 6700 11550 6850
+Wire Wire Line
+	11550 7150 11550 7300
+Wire Wire Line
+	9950 6850 9950 6800
+Wire Wire Line
+	9950 6800 10450 6800
+Connection ~ 10450 6800
+Wire Wire Line
+	10450 7200 11050 7200
+Wire Wire Line
+	11050 7200 11050 7150
+Connection ~ 10450 7200
+Wire Wire Line
+	11550 6800 11050 6800
+Wire Wire Line
+	11050 6800 11050 6850
+Connection ~ 11550 6800
+Connection ~ 11550 7200
+Connection ~ 9350 6350
+Wire Wire Line
+	11550 6350 11550 6400
+Wire Wire Line
+	10450 6350 10450 6400
+Connection ~ 10450 6350
+Connection ~ 9350 7650
+Wire Wire Line
+	10450 7650 10450 7600
+Connection ~ 10450 7650
+Wire Wire Line
+	11550 7650 11550 7600
+Wire Wire Line
+	8800 6750 9350 6750
+Connection ~ 9350 6750
+Wire Wire Line
+	8800 6850 8800 6750
+Wire Wire Line
+	9350 6400 9350 6350
+Wire Wire Line
+	9350 7650 9350 7600
+Connection ~ 8150 7650
+Wire Wire Line
+	8150 6350 8150 6400
+Connection ~ 8150 6350
+Wire Wire Line
+	14050 4100 14750 4100
+Wire Wire Line
+	14750 4100 14750 4050
+Wire Wire Line
+	1200 4550 14050 4550
+Wire Wire Line
+	1150 3250 14050 3250
+Connection ~ 1500 3250
+Connection ~ 1500 4550
+Wire Wire Line
+	11550 7200 12200 7200
+Wire Wire Line
+	12200 7200 12200 7150
+Wire Wire Line
+	3000 6350 11550 6350
+Wire Wire Line
+	3000 7650 11550 7650
+Wire Wire Line
+	14750 3750 14750 3700
+Wire Wire Line
+	14750 3700 15000 3700
+Wire Wire Line
+	15000 3700 15000 5500
+Wire Wire Line
+	15000 5500 2650 5500
+Wire Wire Line
+	2650 5500 2650 6800
+$Comp
+L R R221
+U 1 1 59AF7DD8
+P 11300 3900
+F 0 "R221" V 11380 3900 50  0000 C CNN
+F 1 "0" V 11300 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11230 3900 50  0001 C CNN
+F 3 "" H 11300 3900 50  0001 C CNN
+F 4 "Panasonic" H 11300 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 11300 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 11200 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 11300 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 11300 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 11300 3900 60  0001 C CNN "Comment"
+	1    11300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R222
+U 1 1 59AF7EE2
+P 12450 3900
+F 0 "R222" V 12530 3900 50  0000 C CNN
+F 1 "0" V 12450 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 12380 3900 50  0001 C CNN
+F 3 "" H 12450 3900 50  0001 C CNN
+F 4 "Panasonic" H 12450 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 12450 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 12350 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 12450 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 12450 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 12450 3900 60  0001 C CNN "Comment"
+	1    12450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R223
+U 1 1 59AF807B
+P 13550 3900
+F 0 "R223" V 13630 3900 50  0000 C CNN
+F 1 "0" V 13550 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 13480 3900 50  0001 C CNN
+F 3 "" H 13550 3900 50  0001 C CNN
+F 4 "Panasonic" H 13550 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 13550 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 13450 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 13550 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 13550 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 13550 3900 60  0001 C CNN "Comment"
+	1    13550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R236
+U 1 1 59AFA9E6
+P 14050 4350
+F 0 "R236" V 14130 4350 50  0000 C CNN
+F 1 "0" V 14050 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 13980 4350 50  0001 C CNN
+F 3 "" H 14050 4350 50  0001 C CNN
+F 4 "Panasonic" H 14050 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 14050 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 13950 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 14050 4350 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 14050 4350 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 14050 4350 60  0001 C CNN "Comment"
+	1    14050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R260
+U 1 1 59AFABF5
+P 11550 7450
+F 0 "R260" V 11630 7450 50  0000 C CNN
+F 1 "0" V 11550 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11480 7450 50  0001 C CNN
+F 3 "" H 11550 7450 50  0001 C CNN
+F 4 "Panasonic" H 11550 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 11550 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 11450 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 11550 7450 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 11550 7450 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 11550 7450 60  0001 C CNN "Comment"
+	1    11550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R205
+U 1 1 59AFB92B
+P 6050 3450
+F 0 "R205" V 6130 3450 50  0000 C CNN
+F 1 "442" V 6050 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5980 3450 50  0001 C CNN
+F 3 "" H 6050 3450 50  0001 C CNN
+F 4 "Panasonic" H 6050 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 6050 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 5950 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 6050 3450 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 6050 3450 60  0001 C CNN "Notes"
+F 9 "RES 0603 442 1%" H 6050 3450 60  0001 C CNN "Comment"
+	1    6050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R209
+U 1 1 59AFBE01
+P 10650 3450
+F 0 "R209" V 10730 3450 50  0000 C CNN
+F 1 "442" V 10650 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10580 3450 50  0001 C CNN
+F 3 "" H 10650 3450 50  0001 C CNN
+F 4 "Panasonic" H 10650 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 10650 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 10550 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 10650 3450 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 10650 3450 60  0001 C CNN "Notes"
+F 9 "RES 0603 442 1%" H 10650 3450 60  0001 C CNN "Comment"
+	1    10650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R241
+U 1 1 59AFC017
+P 8150 6550
+F 0 "R241" V 8230 6550 50  0000 C CNN
+F 1 "442" V 8150 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8080 6550 50  0001 C CNN
+F 3 "" H 8150 6550 50  0001 C CNN
+F 4 "Panasonic" H 8150 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 8150 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 8050 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 8150 6550 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 8150 6550 60  0001 C CNN "Notes"
+F 9 "RES 0603 442 1%" H 8150 6550 60  0001 C CNN "Comment"
+	1    8150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R237
+U 1 1 59AFC60F
+P 3550 6550
+F 0 "R237" V 3630 6550 50  0000 C CNN
+F 1 "442" V 3550 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3480 6550 50  0001 C CNN
+F 3 "" H 3550 6550 50  0001 C CNN
+F 4 "Panasonic" H 3550 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 3550 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 3450 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 3550 6550 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 3550 6550 60  0001 C CNN "Notes"
+F 9 "RES 0603 442 1%" H 3550 6550 60  0001 C CNN "Comment"
+	1    3550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R251
+U 1 1 59AFD533
+P 11050 7000
+F 0 "R251" V 11130 7000 50  0000 C CNN
+F 1 "0" V 11050 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10980 7000 50  0001 C CNN
+F 3 "" H 11050 7000 50  0001 C CNN
+F 4 "Panasonic" H 11050 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 11050 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 10950 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 11050 7000 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 11050 7000 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 11050 7000 60  0001 C CNN "Comment"
+	1    11050 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R250
+U 1 1 59AFD64D
+P 9950 7000
+F 0 "R250" V 10030 7000 50  0000 C CNN
+F 1 "0" V 9950 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9880 7000 50  0001 C CNN
+F 3 "" H 9950 7000 50  0001 C CNN
+F 4 "Panasonic" H 9950 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 9950 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 9850 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 9950 7000 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 9950 7000 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 9950 7000 60  0001 C CNN "Comment"
+	1    9950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R249
+U 1 1 59AFD774
+P 8800 7000
+F 0 "R249" V 8880 7000 50  0000 C CNN
+F 1 "0" V 8800 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8730 7000 50  0001 C CNN
+F 3 "" H 8800 7000 50  0001 C CNN
+F 4 "Panasonic" H 8800 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 8800 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 8700 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 8800 7000 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 8800 7000 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 8800 7000 60  0001 C CNN "Comment"
+	1    8800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R256
+U 1 1 59AFDBFA
+P 6950 7450
+F 0 "R256" V 7030 7450 50  0000 C CNN
+F 1 "0" V 6950 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6880 7450 50  0001 C CNN
+F 3 "" H 6950 7450 50  0001 C CNN
+F 4 "Panasonic" H 6950 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 6950 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 6850 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 6950 7450 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 6950 7450 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 6950 7450 60  0001 C CNN "Comment"
+	1    6950 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R247
+U 1 1 59AFDD21
+P 6450 7000
+F 0 "R247" V 6530 7000 50  0000 C CNN
+F 1 "0" V 6450 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6380 7000 50  0001 C CNN
+F 3 "" H 6450 7000 50  0001 C CNN
+F 4 "Panasonic" H 6450 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 6450 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 6350 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 6450 7000 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 6450 7000 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 6450 7000 60  0001 C CNN "Comment"
+	1    6450 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R246
+U 1 1 59AFDE39
+P 5350 7000
+F 0 "R246" V 5430 7000 50  0000 C CNN
+F 1 "0" V 5350 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5280 7000 50  0001 C CNN
+F 3 "" H 5350 7000 50  0001 C CNN
+F 4 "Panasonic" H 5350 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 5350 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 5250 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 5350 7000 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 5350 7000 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 5350 7000 60  0001 C CNN "Comment"
+	1    5350 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R245
+U 1 1 59AFDF58
+P 4200 7000
+F 0 "R245" V 4280 7000 50  0000 C CNN
+F 1 "0" V 4200 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4130 7000 50  0001 C CNN
+F 3 "" H 4200 7000 50  0001 C CNN
+F 4 "Panasonic" H 4200 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 4200 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 4100 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 4200 7000 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 4200 7000 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 4200 7000 60  0001 C CNN "Comment"
+	1    4200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R213
+U 1 1 59AFE206
+P 2100 3900
+F 0 "R213" V 2180 3900 50  0000 C CNN
+F 1 "0" V 2100 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2030 3900 50  0001 C CNN
+F 3 "" H 2100 3900 50  0001 C CNN
+F 4 "Panasonic" H 2100 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 2100 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 2000 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 2100 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 2100 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 2100 3900 60  0001 C CNN "Comment"
+	1    2100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R214
+U 1 1 59AFEC3C
+P 3200 3900
+F 0 "R214" V 3280 3900 50  0000 C CNN
+F 1 "0" V 3200 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3130 3900 50  0001 C CNN
+F 3 "" H 3200 3900 50  0001 C CNN
+F 4 "Panasonic" H 3200 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 3200 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 3100 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 3200 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 3200 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 3200 3900 60  0001 C CNN "Comment"
+	1    3200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R215
+U 1 1 59AFED5C
+P 4300 3900
+F 0 "R215" V 4380 3900 50  0000 C CNN
+F 1 "0" V 4300 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4230 3900 50  0001 C CNN
+F 3 "" H 4300 3900 50  0001 C CNN
+F 4 "Panasonic" H 4300 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 4300 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 4200 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 4300 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 4300 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 4300 3900 60  0001 C CNN "Comment"
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R228
+U 1 1 59AFEE7D
+P 4850 4350
+F 0 "R228" V 4930 4350 50  0000 C CNN
+F 1 "0" V 4850 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4780 4350 50  0001 C CNN
+F 3 "" H 4850 4350 50  0001 C CNN
+F 4 "Panasonic" H 4850 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 4850 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 4750 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 4850 4350 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 4850 4350 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 4850 4350 60  0001 C CNN "Comment"
+	1    4850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R217
+U 1 1 59AFF2B3
+P 6700 3900
+F 0 "R217" V 6780 3900 50  0000 C CNN
+F 1 "0" V 6700 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6630 3900 50  0001 C CNN
+F 3 "" H 6700 3900 50  0001 C CNN
+F 4 "Panasonic" H 6700 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 6700 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 6600 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 6700 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 6700 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 6700 3900 60  0001 C CNN "Comment"
+	1    6700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R218
+U 1 1 59AFF3D8
+P 7850 3900
+F 0 "R218" V 7930 3900 50  0000 C CNN
+F 1 "0" V 7850 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7780 3900 50  0001 C CNN
+F 3 "" H 7850 3900 50  0001 C CNN
+F 4 "Panasonic" H 7850 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 7850 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 7750 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 7850 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 7850 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 7850 3900 60  0001 C CNN "Comment"
+	1    7850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R219
+U 1 1 59AFF4F0
+P 8950 3900
+F 0 "R219" V 9030 3900 50  0000 C CNN
+F 1 "0" V 8950 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8880 3900 50  0001 C CNN
+F 3 "" H 8950 3900 50  0001 C CNN
+F 4 "Panasonic" H 8950 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 8950 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 8850 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 8950 3900 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 8950 3900 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 8950 3900 60  0001 C CNN "Comment"
+	1    8950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R232
+U 1 1 59AFF617
+P 9450 4350
+F 0 "R232" V 9530 4350 50  0000 C CNN
+F 1 "0" V 9450 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9380 4350 50  0001 C CNN
+F 3 "" H 9450 4350 50  0001 C CNN
+F 4 "Panasonic" H 9450 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 9450 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 9350 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 9450 4350 60  0001 C CNN "Description"
+F 8 "any equivalent PN" H 9450 4350 60  0001 C CNN "Notes"
+F 9 "RES 0603 JUMPER" H 9450 4350 60  0001 C CNN "Comment"
+	1    9450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D204
+U 1 1 59B016C6
+P 2600 3900
+F 0 "D204" H 2600 4000 50  0000 C CNN
+F 1 "GRN" H 2600 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 2600 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 2600 3900 50  0001 C CNN
+F 4 "OSRAM" H 2600 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 2600 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 2600 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 2600 3900 60  0001 C CNN "Description"
+F 8 "~" H 2600 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 2600 3900 60  0001 C CNN "Comment"
+	1    2600 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D205
+U 1 1 59B017AA
+P 3700 3900
+F 0 "D205" H 3700 4000 50  0000 C CNN
+F 1 "GRN" H 3700 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3700 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 3700 3900 50  0001 C CNN
+F 4 "OSRAM" H 3700 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 3700 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 3700 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 3700 3900 60  0001 C CNN "Description"
+F 8 "~" H 3700 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 3700 3900 60  0001 C CNN "Comment"
+	1    3700 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D206
+U 1 1 59B01893
+P 4850 3900
+F 0 "D206" H 4850 4000 50  0000 C CNN
+F 1 "GRN" H 4850 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 4850 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 4850 3900 50  0001 C CNN
+F 4 "OSRAM" H 4850 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 4850 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 4850 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 4850 3900 60  0001 C CNN "Description"
+F 8 "~" H 4850 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 4850 3900 60  0001 C CNN "Comment"
+	1    4850 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D207
+U 1 1 59B01981
+P 6050 3900
+F 0 "D207" H 6050 4000 50  0000 C CNN
+F 1 "GRN" H 6050 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 6050 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 6050 3900 50  0001 C CNN
+F 4 "OSRAM" H 6050 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 6050 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 6050 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 6050 3900 60  0001 C CNN "Description"
+F 8 "~" H 6050 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 6050 3900 60  0001 C CNN "Comment"
+	1    6050 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D202
+U 1 1 59B01A72
+P 7250 3850
+F 0 "D202" H 7250 3950 50  0000 C CNN
+F 1 "GRN" H 7250 3750 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 7250 3850 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 7250 3850 50  0001 C CNN
+F 4 "OSRAM" H 7250 3850 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 7250 3850 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 7250 3650 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 7250 3850 60  0001 C CNN "Description"
+F 8 "~" H 7250 3850 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 7250 3850 60  0001 C CNN "Comment"
+	1    7250 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D208
+U 1 1 59B01B64
+P 8350 3900
+F 0 "D208" H 8350 4000 50  0000 C CNN
+F 1 "GRN" H 8350 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8350 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 8350 3900 50  0001 C CNN
+F 4 "OSRAM" H 8350 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 8350 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 8350 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 8350 3900 60  0001 C CNN "Description"
+F 8 "~" H 8350 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 8350 3900 60  0001 C CNN "Comment"
+	1    8350 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D209
+U 1 1 59B01C5D
+P 9450 3900
+F 0 "D209" H 9450 4000 50  0000 C CNN
+F 1 "GRN" H 9450 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 9450 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 9450 3900 50  0001 C CNN
+F 4 "OSRAM" H 9450 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 9450 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 9450 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 9450 3900 60  0001 C CNN "Description"
+F 8 "~" H 9450 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 9450 3900 60  0001 C CNN "Comment"
+	1    9450 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D210
+U 1 1 59B01D53
+P 10650 3900
+F 0 "D210" H 10650 4000 50  0000 C CNN
+F 1 "GRN" H 10650 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 10650 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 10650 3900 50  0001 C CNN
+F 4 "OSRAM" H 10650 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 10650 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 10650 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 10650 3900 60  0001 C CNN "Description"
+F 8 "~" H 10650 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 10650 3900 60  0001 C CNN "Comment"
+	1    10650 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D203
+U 1 1 59B01ED8
+P 11850 3850
+F 0 "D203" H 11850 3950 50  0000 C CNN
+F 1 "GRN" H 11850 3750 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 11850 3850 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 11850 3850 50  0001 C CNN
+F 4 "OSRAM" H 11850 3850 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 11850 3850 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 11850 3650 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 11850 3850 60  0001 C CNN "Description"
+F 8 "~" H 11850 3850 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 11850 3850 60  0001 C CNN "Comment"
+	1    11850 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D211
+U 1 1 59B01FD6
+P 12950 3900
+F 0 "D211" H 12950 4000 50  0000 C CNN
+F 1 "GRN" H 12950 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 12950 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 12950 3900 50  0001 C CNN
+F 4 "OSRAM" H 12950 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 12950 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 12950 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 12950 3900 60  0001 C CNN "Description"
+F 8 "~" H 12950 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 12950 3900 60  0001 C CNN "Comment"
+	1    12950 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D212
+U 1 1 59B020D9
+P 14050 3900
+F 0 "D212" H 14050 4000 50  0000 C CNN
+F 1 "GRN" H 14050 3800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 14050 3900 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 14050 3900 50  0001 C CNN
+F 4 "OSRAM" H 14050 3900 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 14050 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 14050 3700 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 14050 3900 60  0001 C CNN "Description"
+F 8 "~" H 14050 3900 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 14050 3900 60  0001 C CNN "Comment"
+	1    14050 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D215
+U 1 1 59B021E3
+P 3550 7000
+F 0 "D215" H 3550 7100 50  0000 C CNN
+F 1 "GRN" H 3550 6900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3550 7000 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 3550 7000 50  0001 C CNN
+F 4 "OSRAM" H 3550 7000 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 3550 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 3550 6800 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 3550 7000 60  0001 C CNN "Description"
+F 8 "~" H 3550 7000 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 3550 7000 60  0001 C CNN "Comment"
+	1    3550 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D213
+U 1 1 59B022FA
+P 4750 6950
+F 0 "D213" H 4750 7050 50  0000 C CNN
+F 1 "GRN" H 4750 6850 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 4750 6950 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 4750 6950 50  0001 C CNN
+F 4 "OSRAM" H 4750 6950 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 4750 6950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 4750 6750 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 4750 6950 60  0001 C CNN "Description"
+F 8 "~" H 4750 6950 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 4750 6950 60  0001 C CNN "Comment"
+	1    4750 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D216
+U 1 1 59B0240E
+P 5850 7000
+F 0 "D216" H 5850 7100 50  0000 C CNN
+F 1 "GRN" H 5850 6900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 5850 7000 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 5850 7000 50  0001 C CNN
+F 4 "OSRAM" H 5850 7000 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 5850 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 5850 6800 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 5850 7000 60  0001 C CNN "Description"
+F 8 "~" H 5850 7000 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 5850 7000 60  0001 C CNN "Comment"
+	1    5850 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D217
+U 1 1 59B02521
+P 6950 7000
+F 0 "D217" H 6950 7100 50  0000 C CNN
+F 1 "GRN" H 6950 6900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 6950 7000 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 6950 7000 50  0001 C CNN
+F 4 "OSRAM" H 6950 7000 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 6950 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 6950 6800 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 6950 7000 60  0001 C CNN "Description"
+F 8 "~" H 6950 7000 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 6950 7000 60  0001 C CNN "Comment"
+	1    6950 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D218
+U 1 1 59B02639
+P 8150 7000
+F 0 "D218" H 8150 7100 50  0000 C CNN
+F 1 "GRN" H 8150 6900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8150 7000 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 8150 7000 50  0001 C CNN
+F 4 "OSRAM" H 8150 7000 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 8150 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 8150 6800 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 8150 7000 60  0001 C CNN "Description"
+F 8 "~" H 8150 7000 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 8150 7000 60  0001 C CNN "Comment"
+	1    8150 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D214
+U 1 1 59B02750
+P 9350 6950
+F 0 "D214" H 9350 7050 50  0000 C CNN
+F 1 "GRN" H 9350 6850 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 9350 6950 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 9350 6950 50  0001 C CNN
+F 4 "OSRAM" H 9350 6950 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 9350 6950 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 9350 6750 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 9350 6950 60  0001 C CNN "Description"
+F 8 "~" H 9350 6950 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 9350 6950 60  0001 C CNN "Comment"
+	1    9350 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D219
+U 1 1 59B02868
+P 10450 7000
+F 0 "D219" H 10450 7100 50  0000 C CNN
+F 1 "GRN" H 10450 6900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 10450 7000 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 10450 7000 50  0001 C CNN
+F 4 "OSRAM" H 10450 7000 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 10450 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 10450 6800 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 10450 7000 60  0001 C CNN "Description"
+F 8 "~" H 10450 7000 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 10450 7000 60  0001 C CNN "Comment"
+	1    10450 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D220
+U 1 1 59B02981
+P 11550 7000
+F 0 "D220" H 11550 7100 50  0000 C CNN
+F 1 "GRN" H 11550 6900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 11550 7000 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00183683_0.pdf" H 11550 7000 50  0001 C CNN
+F 4 "OSRAM" H 11550 7000 60  0001 C CNN "Manufacturer"
+F 5 "LT Q39G-Q1S2-25-1" H 11550 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" H 11550 6800 60  0000 C CNN "Package"
+F 7 "LED GREEN DIFFUSED 0603 SMD" H 11550 7000 60  0001 C CNN "Description"
+F 8 "~" H 11550 7000 60  0001 C CNN "Notes"
+F 9 "LT Q39G-Q1S2-25-1" H 11550 7000 60  0001 C CNN "Comment"
+	1    11550 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R226
+U 1 1 59B05D30
+P 2600 4350
+F 0 "R226" V 2680 4350 50  0000 C CNN
+F 1 "0" V 2600 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2530 4350 50  0001 C CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+F 4 "Panasonic" H 2600 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 2600 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 2500 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 2600 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 2400 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 2600 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 2600 4350 60  0001 C CNN "Comment"
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R227
+U 1 1 59B05E51
+P 3700 4350
+F 0 "R227" V 3780 4350 50  0000 C CNN
+F 1 "0" V 3700 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3630 4350 50  0001 C CNN
+F 3 "" H 3700 4350 50  0001 C CNN
+F 4 "Panasonic" H 3700 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 3700 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 3600 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 3700 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 3500 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 3700 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 3700 4350 60  0001 C CNN "Comment"
+	1    3700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R203
+U 1 1 59B0605C
+P 3700 3450
+F 0 "R203" V 3780 3450 50  0000 C CNN
+F 1 "442" V 3700 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3630 3450 50  0001 C CNN
+F 3 "" H 3700 3450 50  0001 C CNN
+F 4 "Panasonic" H 3700 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 3700 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 3600 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 3700 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 3500 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 3700 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 3700 3450 60  0001 C CNN "Comment"
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 59B06183
+P 4850 3450
+F 0 "R204" V 4930 3450 50  0000 C CNN
+F 1 "442" V 4850 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4780 3450 50  0001 C CNN
+F 3 "" H 4850 3450 50  0001 C CNN
+F 4 "Panasonic" H 4850 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 4850 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 4750 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 4850 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 4650 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 4850 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 4850 3450 60  0001 C CNN "Comment"
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R216
+U 1 1 59B06302
+P 5500 3900
+F 0 "R216" V 5580 3900 50  0000 C CNN
+F 1 "0" V 5500 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5430 3900 50  0001 C CNN
+F 3 "" H 5500 3900 50  0001 C CNN
+F 4 "Panasonic" H 5500 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 5500 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 5400 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 5500 3900 60  0001 C CNN "Description"
+F 8 "DNF" V 5300 3900 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 5500 3900 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 5500 3900 60  0001 C CNN "Comment"
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R229
+U 1 1 59B06821
+P 6050 4350
+F 0 "R229" V 6130 4350 50  0000 C CNN
+F 1 "0" V 6050 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5980 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+F 4 "Panasonic" H 6050 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 6050 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 5950 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 6050 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 5850 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 6050 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 6050 4350 60  0001 C CNN "Comment"
+	1    6050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R230
+U 1 1 59B06935
+P 7250 4350
+F 0 "R230" V 7330 4350 50  0000 C CNN
+F 1 "0" V 7250 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7180 4350 50  0001 C CNN
+F 3 "" H 7250 4350 50  0001 C CNN
+F 4 "Panasonic" H 7250 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 7250 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 7150 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 7250 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 7050 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 7250 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 7250 4350 60  0001 C CNN "Comment"
+	1    7250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R206
+U 1 1 59B06A46
+P 7250 3450
+F 0 "R206" V 7330 3450 50  0000 C CNN
+F 1 "442" V 7250 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7180 3450 50  0001 C CNN
+F 3 "" H 7250 3450 50  0001 C CNN
+F 4 "Panasonic" H 7250 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 7250 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 7150 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 7250 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 7050 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 7250 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 7250 3450 60  0001 C CNN "Comment"
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R207
+U 1 1 59B06B68
+P 8350 3450
+F 0 "R207" V 8430 3450 50  0000 C CNN
+F 1 "442" V 8350 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8280 3450 50  0001 C CNN
+F 3 "" H 8350 3450 50  0001 C CNN
+F 4 "Panasonic" H 8350 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 8350 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 8250 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 8350 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 8150 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 8350 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 8350 3450 60  0001 C CNN "Comment"
+	1    8350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R208
+U 1 1 59B06DC0
+P 9450 3450
+F 0 "R208" V 9530 3450 50  0000 C CNN
+F 1 "442" V 9450 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9380 3450 50  0001 C CNN
+F 3 "" H 9450 3450 50  0001 C CNN
+F 4 "Panasonic" H 9450 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 9450 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 9350 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 9450 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 9250 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 9450 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 9450 3450 60  0001 C CNN "Comment"
+	1    9450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R231
+U 1 1 59B06F74
+P 8350 4350
+F 0 "R231" V 8430 4350 50  0000 C CNN
+F 1 "0" V 8350 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8280 4350 50  0001 C CNN
+F 3 "" H 8350 4350 50  0001 C CNN
+F 4 "Panasonic" H 8350 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 8350 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 8250 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 8350 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 8150 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 8350 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 8350 4350 60  0001 C CNN "Comment"
+	1    8350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R220
+U 1 1 59B0708E
+P 10100 3900
+F 0 "R220" V 10180 3900 50  0000 C CNN
+F 1 "0" V 10100 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10030 3900 50  0001 C CNN
+F 3 "" H 10100 3900 50  0001 C CNN
+F 4 "Panasonic" H 10100 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 10100 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 10000 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 10100 3900 60  0001 C CNN "Description"
+F 8 "DNF" V 9900 3900 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 10100 3900 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 10100 3900 60  0001 C CNN "Comment"
+	1    10100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R233
+U 1 1 59B071B5
+P 10650 4350
+F 0 "R233" V 10730 4350 50  0000 C CNN
+F 1 "0" V 10650 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10580 4350 50  0001 C CNN
+F 3 "" H 10650 4350 50  0001 C CNN
+F 4 "Panasonic" H 10650 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 10650 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 10550 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 10650 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 10450 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 10650 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 10650 4350 60  0001 C CNN "Comment"
+	1    10650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R210
+U 1 1 59B07505
+P 11850 3450
+F 0 "R210" V 11930 3450 50  0000 C CNN
+F 1 "442" V 11850 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11780 3450 50  0001 C CNN
+F 3 "" H 11850 3450 50  0001 C CNN
+F 4 "Panasonic" H 11850 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 11850 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 11750 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 11850 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 11650 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 11850 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 11850 3450 60  0001 C CNN "Comment"
+	1    11850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R211
+U 1 1 59B0762D
+P 12950 3450
+F 0 "R211" V 13030 3450 50  0000 C CNN
+F 1 "442" V 12950 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 12880 3450 50  0001 C CNN
+F 3 "" H 12950 3450 50  0001 C CNN
+F 4 "Panasonic" H 12950 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 12950 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 12850 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 12950 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 12750 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 12950 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 12950 3450 60  0001 C CNN "Comment"
+	1    12950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R212
+U 1 1 59B07756
+P 14050 3450
+F 0 "R212" V 14130 3450 50  0000 C CNN
+F 1 "442" V 14050 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 13980 3450 50  0001 C CNN
+F 3 "" H 14050 3450 50  0001 C CNN
+F 4 "Panasonic" H 14050 3450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 14050 3450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 13950 3450 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 14050 3450 60  0001 C CNN "Description"
+F 8 "DNF" V 13850 3450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 14050 3450 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 14050 3450 60  0001 C CNN "Comment"
+	1    14050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R234
+U 1 1 59B0791D
+P 11850 4350
+F 0 "R234" V 11930 4350 50  0000 C CNN
+F 1 "0" V 11850 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11780 4350 50  0001 C CNN
+F 3 "" H 11850 4350 50  0001 C CNN
+F 4 "Panasonic" H 11850 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 11850 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 11750 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 11850 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 11650 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 11850 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 11850 4350 60  0001 C CNN "Comment"
+	1    11850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R235
+U 1 1 59B07A38
+P 12950 4350
+F 0 "R235" V 13030 4350 50  0000 C CNN
+F 1 "0" V 12950 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 12880 4350 50  0001 C CNN
+F 3 "" H 12950 4350 50  0001 C CNN
+F 4 "Panasonic" H 12950 4350 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 12950 4350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 12850 4350 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 12950 4350 60  0001 C CNN "Description"
+F 8 "DNF" V 12750 4350 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 12950 4350 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 12950 4350 60  0001 C CNN "Comment"
+	1    12950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R224
+U 1 1 59B07C4B
+P 14750 3900
+F 0 "R224" V 14830 3900 50  0000 C CNN
+F 1 "0" V 14750 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 14680 3900 50  0001 C CNN
+F 3 "" H 14750 3900 50  0001 C CNN
+F 4 "Panasonic" H 14750 3900 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 14750 3900 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 14650 3900 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 14750 3900 60  0001 C CNN "Description"
+F 8 "DNF" V 14550 3900 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 14750 3900 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 14750 3900 60  0001 C CNN "Comment"
+	1    14750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R253
+U 1 1 59B0803F
+P 3550 7450
+F 0 "R253" V 3630 7450 50  0000 C CNN
+F 1 "0" V 3550 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3480 7450 50  0001 C CNN
+F 3 "" H 3550 7450 50  0001 C CNN
+F 4 "Panasonic" H 3550 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 3550 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 3450 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 3550 7450 60  0001 C CNN "Description"
+F 8 "DNF" V 3350 7450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 3550 7450 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 3550 7450 60  0001 C CNN "Comment"
+	1    3550 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R238
+U 1 1 59B081BB
+P 4750 6550
+F 0 "R238" V 4830 6550 50  0000 C CNN
+F 1 "442" V 4750 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4680 6550 50  0001 C CNN
+F 3 "" H 4750 6550 50  0001 C CNN
+F 4 "Panasonic" H 4750 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 4750 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 4650 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 4750 6550 60  0001 C CNN "Description"
+F 8 "DNF" V 4550 6550 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 4750 6550 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 4750 6550 60  0001 C CNN "Comment"
+	1    4750 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R239
+U 1 1 59B08A8C
+P 5850 6550
+F 0 "R239" V 5930 6550 50  0000 C CNN
+F 1 "442" V 5850 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5780 6550 50  0001 C CNN
+F 3 "" H 5850 6550 50  0001 C CNN
+F 4 "Panasonic" H 5850 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 5850 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 5750 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 5850 6550 60  0001 C CNN "Description"
+F 8 "DNF" V 5650 6550 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 5850 6550 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 5850 6550 60  0001 C CNN "Comment"
+	1    5850 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R240
+U 1 1 59B08BA6
+P 6950 6550
+F 0 "R240" V 7030 6550 50  0000 C CNN
+F 1 "442" V 6950 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6880 6550 50  0001 C CNN
+F 3 "" H 6950 6550 50  0001 C CNN
+F 4 "Panasonic" H 6950 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 6950 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 6850 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 6950 6550 60  0001 C CNN "Description"
+F 8 "DNF" V 6750 6550 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 6950 6550 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 6950 6550 60  0001 C CNN "Comment"
+	1    6950 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R254
+U 1 1 59B091FA
+P 4750 7450
+F 0 "R254" V 4830 7450 50  0000 C CNN
+F 1 "0" V 4750 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4680 7450 50  0001 C CNN
+F 3 "" H 4750 7450 50  0001 C CNN
+F 4 "Panasonic" H 4750 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 4750 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 4650 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 4750 7450 60  0001 C CNN "Description"
+F 8 "DNF" V 4550 7450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 4750 7450 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 4750 7450 60  0001 C CNN "Comment"
+	1    4750 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R255
+U 1 1 59B09313
+P 5850 7450
+F 0 "R255" V 5930 7450 50  0000 C CNN
+F 1 "0" V 5850 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5780 7450 50  0001 C CNN
+F 3 "" H 5850 7450 50  0001 C CNN
+F 4 "Panasonic" H 5850 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 5850 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 5750 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 5850 7450 60  0001 C CNN "Description"
+F 8 "DNF" V 5650 7450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 5850 7450 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 5850 7450 60  0001 C CNN "Comment"
+	1    5850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R248
+U 1 1 59B0982B
+P 7600 7000
+F 0 "R248" V 7680 7000 50  0000 C CNN
+F 1 "0" V 7600 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7530 7000 50  0001 C CNN
+F 3 "" H 7600 7000 50  0001 C CNN
+F 4 "Panasonic" H 7600 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 7600 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 7500 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 7600 7000 60  0001 C CNN "Description"
+F 8 "DNF" V 7400 7000 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 7600 7000 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 7600 7000 60  0001 C CNN "Comment"
+	1    7600 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R257
+U 1 1 59B09948
+P 8150 7450
+F 0 "R257" V 8230 7450 50  0000 C CNN
+F 1 "0" V 8150 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8080 7450 50  0001 C CNN
+F 3 "" H 8150 7450 50  0001 C CNN
+F 4 "Panasonic" H 8150 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 8150 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 8050 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 8150 7450 60  0001 C CNN "Description"
+F 8 "DNF" V 7950 7450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 8150 7450 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 8150 7450 60  0001 C CNN "Comment"
+	1    8150 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R258
+U 1 1 59B09A62
+P 9350 7450
+F 0 "R258" V 9430 7450 50  0000 C CNN
+F 1 "0" V 9350 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9280 7450 50  0001 C CNN
+F 3 "" H 9350 7450 50  0001 C CNN
+F 4 "Panasonic" H 9350 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 9350 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 9250 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 9350 7450 60  0001 C CNN "Description"
+F 8 "DNF" V 9150 7450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 9350 7450 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 9350 7450 60  0001 C CNN "Comment"
+	1    9350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R259
+U 1 1 59B09C0D
+P 10450 7450
+F 0 "R259" V 10530 7450 50  0000 C CNN
+F 1 "0" V 10450 7450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10380 7450 50  0001 C CNN
+F 3 "" H 10450 7450 50  0001 C CNN
+F 4 "Panasonic" H 10450 7450 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 10450 7450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 10350 7450 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 10450 7450 60  0001 C CNN "Description"
+F 8 "DNF" V 10250 7450 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 10450 7450 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 10450 7450 60  0001 C CNN "Comment"
+	1    10450 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R242
+U 1 1 59B09D39
+P 9350 6550
+F 0 "R242" V 9430 6550 50  0000 C CNN
+F 1 "442" V 9350 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9280 6550 50  0001 C CNN
+F 3 "" H 9350 6550 50  0001 C CNN
+F 4 "Panasonic" H 9350 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 9350 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 9250 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 9350 6550 60  0001 C CNN "Description"
+F 8 "DNF" V 9150 6550 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 9350 6550 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 9350 6550 60  0001 C CNN "Comment"
+	1    9350 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R243
+U 1 1 59B0A0F7
+P 10450 6550
+F 0 "R243" V 10530 6550 50  0000 C CNN
+F 1 "442" V 10450 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 10380 6550 50  0001 C CNN
+F 3 "" H 10450 6550 50  0001 C CNN
+F 4 "Panasonic" H 10450 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 10450 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 10350 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 10450 6550 60  0001 C CNN "Description"
+F 8 "DNF" V 10250 6550 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 10450 6550 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 10450 6550 60  0001 C CNN "Comment"
+	1    10450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R244
+U 1 1 59B0A228
+P 11550 6550
+F 0 "R244" V 11630 6550 50  0000 C CNN
+F 1 "442" V 11550 6550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11480 6550 50  0001 C CNN
+F 3 "" H 11550 6550 50  0001 C CNN
+F 4 "Panasonic" H 11550 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-3EKF4420V" H 11550 6550 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 11450 6550 60  0000 C CNN "Package"
+F 7 "RES 0603 442 1%" H 11550 6550 60  0001 C CNN "Description"
+F 8 "DNF" V 11350 6550 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 11550 6550 60  0001 C CNN "Notes"
+F 10 "RES 0603 442 1%" H 11550 6550 60  0001 C CNN "Comment"
+	1    11550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R252
+U 1 1 59B0C40B
+P 12200 7000
+F 0 "R252" V 12280 7000 50  0000 C CNN
+F 1 "0" V 12200 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 12130 7000 50  0001 C CNN
+F 3 "" H 12200 7000 50  0001 C CNN
+F 4 "Panasonic" H 12200 7000 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-S030R00V" H 12200 7000 60  0001 C CNN "Manufacturer Part Number"
+F 6 "0603" V 12100 7000 60  0000 C CNN "Package"
+F 7 "RES 0603 JUMPER" H 12200 7000 60  0001 C CNN "Description"
+F 8 "DNF" V 12000 7000 60  0000 C CNB "Config"
+F 9 "any equivalent PN" H 12200 7000 60  0001 C CNN "Notes"
+F 10 "RES 0603 JUMPER" H 12200 7000 60  0001 C CNN "Comment"
+	1    12200 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 6800 12200 6800
+Wire Wire Line
+	12200 6800 12200 6850
+$EndSCHEMATC
